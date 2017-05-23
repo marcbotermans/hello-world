@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'echo Building a new world'
+        sh '/bin/bash build.sh'
       }
     }
   }
